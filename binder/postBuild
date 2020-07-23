@@ -8,7 +8,7 @@ cd bart-0.5.00
 PARALLEL=1 make
 
 git clone https://github.com/mrphysics-bonn/spiral-pypulseq-example
-cd spiral_pypulseq_bart_example/spiraltraj
+cd spiral-pypulseq-example/spiraltraj
 python setup.py install
 
 git clone --single-branch --branch binder_compatibility https://github.com/mavel101/pypulseq.git
