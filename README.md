@@ -2,7 +2,7 @@
 
 This repository contains a Jupyter Notebook with an example code for a spiral MRI sequence in the Pulseq open source file format. The Pypulseq [1] package for Python is used for the designing pulses and creating the sequence file.
 
-Additionally, an example reconstruction of spiral MRI data is shown. This data was acquired with an enhanced version of the presented Pulseq sequence. The reconstruction is done with the Berkeley Advanced Reconstruction Toolbox (BART) [2].
+Additionally, an example reconstruction of spiral MRI data is shown. This data was acquired with an enhanced version of the presented Pulseq sequence. The reconstruction is done with the Berkeley Advanced Reconstruction Toolbox (BART) [2]. Two different reconstructions are perfomed using a k-space trajectory predicted with the Gradient Impulse Response Function (GIRF) and using the nominal k-space trajectory.
 
 ## Usage/Installation/Requirements
 
