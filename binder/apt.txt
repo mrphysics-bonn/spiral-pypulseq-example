@@ -1,1 +1,3 @@
 cmake
+libboost-dev
+libhdf5-dev
