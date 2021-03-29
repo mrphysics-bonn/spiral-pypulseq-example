@@ -17,7 +17,7 @@ The Notebook can also be used with a local Python installation containing Jupyte
 git clone https://github.com/ismrmrd/ismrmrd-python
 cd ismrmrd-python
 git checkout 80fecd0
-python setup.py install'
+python setup.py install
 ```
 
 ## References
