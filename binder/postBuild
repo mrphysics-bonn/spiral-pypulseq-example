@@ -11,4 +11,5 @@ python setup.py install
 
 git clone https://github.com/ismrmrd/ismrmrd-python.git
 cd ismrmrd-python
+git checkout 80fecd0
 python setup.py install
