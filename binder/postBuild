@@ -14,8 +14,7 @@ cd ismrmrd/
 mkdir build
 cd build
 cmake ../
-make
-sudo make install
+make install
 
 git clone https://github.com/ismrmrd/ismrmrd-python.git
 cd ismrmrd-python
