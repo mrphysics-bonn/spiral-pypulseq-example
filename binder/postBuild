@@ -1,11 +1,5 @@
 #!/bin/bash
-pip install bash_kernel numpy matplotlib
-python -m bash_kernel.install
-
-wget https://github.com/mrirecon/bart/archive/v0.5.00.tar.gz
-tar xzvf v0.5.00.tar.gz
-cd bart-0.5.00
-PARALLEL=1 make
+pip install numpy matplotlib
 
 git clone https://github.com/mrphysics-bonn/spiral-pypulseq-example
 cd spiral-pypulseq-example/spiraltraj
@@ -13,4 +7,16 @@ python setup.py install
 
 git clone --single-branch --branch binder_compatibility https://github.com/mavel101/pypulseq.git
 cd pypulseq
+python setup.py install
+
+git clone https://github.com/ismrmrd/ismrmrd
+cd ismrmrd/
+mkdir build
+cd build
+cmake ../
+make
+sudo make install
+
+git clone https://github.com/ismrmrd/ismrmrd-python.git
+cd ismrmrd-python
 python setup.py install

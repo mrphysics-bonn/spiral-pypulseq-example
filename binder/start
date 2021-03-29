@@ -1,8 +1,0 @@
-#!/bin/bash
-cd bart-0.5.00
-. startup.sh
-cd ..
-
-export PYTHONPATH="${TOOLBOX_PATH}/python:$PYTHONPATH"
-
-exec "$@"
