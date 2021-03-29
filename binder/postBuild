@@ -9,13 +9,6 @@ git clone --single-branch --branch binder_compatibility https://github.com/mavel
 cd pypulseq
 python setup.py install
 
-git clone https://github.com/ismrmrd/ismrmrd
-cd ismrmrd/
-mkdir build
-cd build
-cmake ../
-make install
-
 git clone https://github.com/ismrmrd/ismrmrd-python.git
 cd ismrmrd-python
 python setup.py install
