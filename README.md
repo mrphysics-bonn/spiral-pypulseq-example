@@ -1,8 +1,8 @@
-# Spiral Pypulseq Example with BART Reconstruction
+# Spiral Pypulseq Example with ISMRMRD protocol creation
 
-This repository contains a Jupyter Notebook with an example code for a spiral MRI sequence in the Pulseq open source file format [1]. The Pypulseq [2] package for Python is used for the designing pulses and creating the sequence file.
+This repository contains a Jupyter Notebook with an example code for a spiral MRI sequence in the Pulseq open source file format [1]. The Pypulseq [2] package for Python is used for the designing pulses and creating the sequence file. The Jupyter Notebook contains a reduced example for better visualization.
 
-Additionally, a protocol file in the ISMRMRD format [3] is written, which can be used for reconstruction of acquired data.
+The protocol file is written in the ISMRMRD format [3] and can be used for reconstruction of acquired data with the [Python Reco Server](https://github.com/mrphysics-bonn/python-ismrmrd-reco)
 
 ## Usage/Installation/Requirements
 
