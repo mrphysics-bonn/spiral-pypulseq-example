@@ -6,7 +6,7 @@ The protocol file is written in the ISMRMRD format [3] and can be used for recon
 
 ## Usage/Installation/Requirements
 
-The Jupyter Notebook can be used inside binder without further installation requirements. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mrphysics-bonn/spiral-pypulseq-example/master?filepath=spiral_example.ipynb)
+The Jupyter Notebook can be used inside binder without further installation requirements. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mrphysics-bonn/spiral-pypulseq-example/HEAD?labpath=spiral_example.ipynb)
 
 The Notebook can also be used with a local Python installation containing Jupyter Lab and numpy with the following additional installation requirements:
 
@@ -17,7 +17,7 @@ The Notebook can also be used with a local Python installation containing Jupyte
 git clone https://github.com/ismrmrd/ismrmrd-python
 cd ismrmrd-python
 git checkout v1.9.3
-python setup.py install
+pip install .
 ```
 
 ## References

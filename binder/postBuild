@@ -12,4 +12,4 @@ python setup.py install
 git clone https://github.com/ismrmrd/ismrmrd-python.git
 cd ismrmrd-python
 git checkout v1.9.3
-python setup.py install
+pip install .
