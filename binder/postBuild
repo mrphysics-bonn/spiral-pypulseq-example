@@ -5,8 +5,9 @@ git clone https://github.com/mrphysics-bonn/spiral-pypulseq-example
 cd spiral-pypulseq-example/spiraltraj
 python setup.py install
 
-git clone --single-branch --branch binder_compatibility https://github.com/mavel101/pypulseq.git
+git clone --single-branch --branch dev https://github.com/imr-framework/pypulseq
 cd pypulseq
+git switch checkout 2548f0d
 python setup.py install
 
 git clone https://github.com/ismrmrd/ismrmrd-python.git
