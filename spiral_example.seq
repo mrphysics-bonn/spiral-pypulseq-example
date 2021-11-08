@@ -8,6 +8,7 @@ revision 1
 
 [DEFINITIONS]
 Name spiral_example 
+FOV 0.192 0.192 0.002 
 
 # Format of blocks:
 #  #  D RF  GX  GY  GZ ADC EXT
