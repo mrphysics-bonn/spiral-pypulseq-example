@@ -1,0 +1,3 @@
+[submodule "spiraltraj"]
+	path = spiraltraj
+	url = https://github.com/mrphysics-bonn/spiraltraj
