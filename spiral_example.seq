@@ -25003,3 +25003,10 @@ num_samples 1211
 0
 0.0271992
 
+
+[SIGNATURE]
+# This is the hash of the Pulseq file, calculated before the [SIGNATURE] section was added
+# It can be reproduced/verified with md5sum if the file trimmed to the position right above [SIGNATURE]
+# The new line character preceding [SIGNATURE] BELONGS to the signature (and needs to be sripped away for recalculating/verification)
+Type md5
+Hash e6fac0ae0cb2adb98f3ad920dadd461d
