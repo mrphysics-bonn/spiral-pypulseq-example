@@ -10,9 +10,13 @@ The Jupyter Notebook can be used inside binder without further installation requ
 
 The Notebook can also be used with a local Python installation containing Jupyter Lab and numpy with the following additional installation requirements:
 
-* Pypulseq (https://github.com/imr-framework/pypulseq)
-* spiraltraj - see README in the spiraltraj folder
+* Pypulseq: (https://github.com/imr-framework/pypulseq)
+* spiraltraj: see README in the spiraltraj folder
 * ISMRMRD Python API:
+```console
+pip install ismrmrd
+```
+or
 ```console
 git clone https://github.com/ismrmrd/ismrmrd-python
 cd ismrmrd-python
